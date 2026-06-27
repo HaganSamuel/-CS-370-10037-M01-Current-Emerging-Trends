@@ -1,1 +1,27 @@
-# -CS-370-10037-M01-Current-Emerging-Trends
+# CS 370 Project Two: Pirate Intelligent Agent
+## Project Overview
+In this project, I developed an intelligent pirate agent that participates in a treasure hunt game. The aim of this project was to train a non-player character, represented by a pirate agent, using reinforcement learning and neural networks. The agent must learn to move around the maze and get to the treasure location. This example demonstrates how artificial intelligence can be applied in order to solve the problem of finding the path through the maze without programming the solution manually.
+
+Starter files contain the representation of the environment of the game, supporting Python classes, and all the components of the notebook that allow implementing the solution of the task. The `TreasureMaze.py` file contains the representation of the game environment, including the maze layout, possible moves, rewards, penalties, and game status. The `GameExperience.py` file helps with experience replay by saving all the previous episodes to help the agent learn from them. The provided notebook also contains the code that allows building the model, visualizing the maze and checking whether the pirate can successfully reach the treasure.
+
+The code that I developed in this project is connected with completing the Q-training algorithm section of the Jupyter Notebook. The training of the pirate was implemented using deep Q-learning, and it includes choosing the actions using the exploration versus exploitation strategy, using the list of valid moves from the game environment, getting the rewards or penalties, experiencing, replaying, training the neural network with the replay data, counting wins and losses, and checking if the agent was able to learn the right path to the treasure.
+
+## What I Learned
+This course helped me to understand how computer scientists develop solutions for the complicated problems. Computer scientists create, analyze, test, and enhance computational systems that solve problems in different industries, including gaming, business, healthcare, science, cybersecurity, and artificial intelligence. This is important since the good software and algorithm can automate different difficult operations, assist with decision-making, improve the performance, and create useful tools that people can use.
+
+Also, this project helped me to understand how the intelligent system is different from the traditionally programmed one. In case of traditionally programmed solution, I would manually specify all the moves that pirate needs to make in order to get to the treasure. In case of the reinforcement learning, the agent learns through the trial-and-error process. The intelligent system makes observations of the current state of the maze, makes the action, gets the reward or penalty and learns how to choose the best actions from this experience.
+
+## How I Approach Problems as a Computer Scientist
+As a computer scientist, I start analyzing the problem by understanding what is the goal of the problem, inputs, outputs and restrictions. In this project, the goal is the pirate agent reaching the treasure. Inputs in this case are the current state of the maze, pirate's position, valid actions, rewards, penalties. Outputs are the decisions made by the intelligent system regarding which action the agent must make.
+
+Further, I divide the problem into pieces. This includes understanding the game environment, reviewing the provided classes, understanding at which place the Q-training algorithm must be completed, and implementing the solution step-by-step. Also, I must test the intelligent agent, check the performance, and make changes in the solution in case the results are not as expected.
+
+## Ethical Responsibilities
+The ethical responsibilities of the computer scientist include the protection of the end-user, goals of the organization and making sure that the system will be reliable, understandable and correct. Although in this project, we are talking about the game environment, the same principles apply for the real-world applications. Poorly designed intelligent agent can make incorrect decisions, behave unpredictably and generate the results that are hard to understand.
+
+For the end user, the responsibility is providing the software that works as it should, does not cause additional risks, and is understandable. In the gaming context, it means providing the intelligent agent that behaves consistently and does not spoil the gameplay for the user because of some incorrect behavior. From the broader AI point of view, it also means thinking about the privacy, bias, accessibility, and user's trust.
+
+For the organization, the responsibility is writing the maintainable and well-documented code. Intelligent systems must be carefully tested before their deployment since the good performance during one training run does not necessarily mean the good behavior in every possible situation. During this project, I realized how important it is to validate the results instead of making assumptions based on the results obtained. Good computer scientists must consider both the technical performance and consequences of the systems they are creating.
+
+## Portfolio Reflection
+This project is an excellent portfolio artifact since it allows demonstrating my skills in applying reinforcement learning, neural networks and algorithms for solving the particular problem. I used the deep Q-learning to train the intelligent agent that solves the maze-based pathfinding problem. Also, I gained the experience of working with the provided starter code, completing the missing algorithm logic, testing the model performance and explaining the solution.
